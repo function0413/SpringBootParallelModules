@@ -5,4 +5,5 @@ SpringBoot2.0 平行模块项目
 
 项目结构SpringBoot2.0+thymeleaf
 
-![图片加载失败](https://github.com/function0413/SpringBootParallelModules/blob/master/%E5%AF%B9%E6%AF%94.png)；
+![图片加载失败](https://github.com/function0413/SpringBootParallelModules/blob/master/%E5%AF%B9%E6%AF%94.png)
+本人还是初级菜鸟,以上是我的个人观点,也是我的疑惑所在,希望大家积极给与批评指正,感激不尽
