@@ -1,0 +1,23 @@
+plugins {
+    id "org.springframework.boot" version "2.0.1.RELEASE"
+}
+
+apply plugin: 'java'
+apply plugin: 'io.spring.dependency-management'
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+
+repositories {
+    maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+    mavenCentral()
+}
+
+
+dependencies {
+    compile project(':common')
+    compile('org.springframework.boot:spring-boot-starter-thymeleaf')
+    providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')
+}
